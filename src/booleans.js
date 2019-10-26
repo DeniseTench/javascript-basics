@@ -1,9 +1,16 @@
 const negate = a => {
-  // your code here
+  if (a = true) {
+    console.log('False');
+  } else {
+    console.log('True');
+  }
 };
 
 const both = (a, b) => {
-  // your code here
+a = true; 
+console.log('true');
+b = 4;
+console.log('true');
 };
 
 const either = (a, b) => {

@@ -1,17 +1,18 @@
-const add = (a, b) => {
-  // your code here
+  export const add = (a, b) => {
+    return a + b;
+  };
 };
 
-const subtract = (a, b) => {
-  // your code here
+export const subtract = (a, b) => {
+  return a - b;
 };
 
-const multiply = (a, b) => {
-  // your code here
+export const multiply = (a, b) => {
+  return a * b;
 };
 
-const divide = (a, b) => {
-  // your code here
+export const divide = (a, b) => {
+  return a / b;
 };
 
 const power = (a, b) => {
